@@ -1,8 +1,4 @@
-# PROJECT 4 README <!-- omit in toc -->
-
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
+# Soft Swerve - README <!-- omit in toc -->
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -68,28 +64,29 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
 ![Home Screen](https://imgur.com/Kcsklp9)
+https://imgur.com/Kcsklp9
 
 - Home 
 
 ![Order Screen](https://imgur.com/cUmrdWT)
+https://imgur.com/cUmrdWT
 
 - CreateOrder 
 
 ![Change Order](https://imgur.com/p5ekcBR)
+https://imgur.com/p5ekcBR
 
 - Edit Order / Delete Order
 
 ![Checkout](https://imgur.com/CUfg957)
+https://imgur.com/CUfg957
 
 - Checkout Screen
 
 ![Reviews](https://imgur.com/lrKgUep)
+https://imgur.com/lrKgUep
 
 - Review Screen
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 #### Component Tree
 
