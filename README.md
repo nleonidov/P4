@@ -67,25 +67,25 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Dummy Link](url)
+![Home Screen](https://imgur.com/Kcsklp9)
 
-- Desktop Landing
+- Home 
 
-![Dummy Link](url)
+![Order Screen](https://imgur.com/cUmrdWT)
 
-- Desktop Hero
+- CreateOrder 
 
-![Dummy Link](url)
+![Change Order](https://imgur.com/p5ekcBR)
 
-- Resource Index
+- Edit Order / Delete Order
 
-![Dummy Link](url)
+![Checkout](https://imgur.com/CUfg957)
 
-- Resource Show
+- Checkout Screen
 
-![Dummy Link](url)
+![Reviews](https://imgur.com/lrKgUep)
 
-- Tablet Resource Index
+- Review Screen
 
 ![Dummy Link](url)
 
@@ -103,12 +103,14 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 src
 |__ screens/
-      |__ Yogurts.jsx
-      |__ Toppings.jsx
-      |__ YogurtCreate.jsx
-      |__ YogurtEdit.jsx
+      |__ Home.jsx
+      |__ CreateOrder.jsx
+      |__ Checkout.jsx
+      |__ Edit.jsx
+      |__ Review.jsx
 |__ components/
       |__ Header.jsx
+      |__ Footer.jsx
 |__ containers/
       |__ Main.jsx
 |__ services/
@@ -134,8 +136,8 @@ src
 | Models/Controllers  |    M     |    1 hr    |     0 hrs     |     0 hrs     |
 | Set-up/Test Routes |    M    |      1 hr     |    0 hrs     |     0 hrs     | 
 | REACT setup |   H   |   3.5 hrs   |   0 hrs   |   0 hrs   |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     0 hrs     |     0 hrs     |
+| TOTAL               |          |     10.5 hrs      |     0 hrs     |     0 hrs     |
 
 > _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
