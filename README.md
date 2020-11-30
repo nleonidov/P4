@@ -27,9 +27,10 @@ _**Soft Swerve** is a newly opened, delivery-only, frozen yogurt cafe offering v
 
 ## MVP
 
-- Able to create your order
+- User able to create order
 - Editable/Deleteable order
 - Add a review
+- 
 
 
 __
@@ -63,26 +64,26 @@ __
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
 
-https://imgur.com/Kcsklp9
+[Home](https://imgur.com/Kcsklp9)
 
 - Home 
 
 
-https://imgur.com/cUmrdWT
+[CreateOrder](https://imgur.com/cUmrdWT)
 
 - CreateOrder 
 
 
-https://imgur.com/p5ekcBR
+[Edit](https://imgur.com/p5ekcBR)
 
 - Edit Order / Delete Order
 
 
-https://imgur.com/CUfg957
+[Checkout](https://imgur.com/CUfg957)
 
 - Checkout Screen
 
-https://imgur.com/lrKgUep
+[Reviews](https://imgur.com/lrKgUep)
 
 - Review Screen
 
