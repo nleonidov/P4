@@ -63,18 +63,11 @@ __
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-[Home](https://imgur.com/Kcsklp9)
-- Home 
+[Home](https://imgur.com/Kcsklp9) 
 [CreateOrder](https://imgur.com/cUmrdWT)
-- CreateOrder 
-[Edit](https://imgur.com/p5ekcBR)
-- Edit Order / Delete Order
 [Checkout](https://imgur.com/CUfg957)
-- Checkout Screen
 [Reviews](https://imgur.com/e7PtMVy)
-- Review Screen
 [ReviewEdit](https://imgur.com/3G5gw32)
-- Review Edit Screen
 
 #### Component Tree
 
