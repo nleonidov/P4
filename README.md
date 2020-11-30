@@ -20,23 +20,26 @@
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_**Soft Swerve** is a newly opened, delivery-only, frozen yogurt cafe offering various sweet and tangy flavors with the toppings you crave. Upon visiting the website you have an option to start your order and checkout our reviews! _
 
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+- Able to create your order
+- Editable/Deleteable order
+- Add a review
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+
+__
 
 <br>
 
 ### Goals
 
 - _Create a well-organized database for my frozen yogurt and toppings choices_
-- _Establish 'CRUD' around the yogurt options_
+- _Establish 'CRUD' around the order and yogurt options_
 - _Create minimalist style website with nice user-interface_
 - 
 - 
@@ -91,6 +94,14 @@ https://imgur.com/lrKgUep
 #### Component Tree
 
 > Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
+
+``` structure
+Home  
+  |__ Order
+  |       |__ Edit/Delete
+  |       |__ Checkout
+  |__ Reviews
+```
 
 #### Component Hierarchy
 
