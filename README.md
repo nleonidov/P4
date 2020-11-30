@@ -55,8 +55,6 @@ __
 |      React       | Using React to build a front-end 'visual' interface for user interaction |
 |   React Router   | Connecting methods together throughout screens and allowing state and routes to work properly|
 |   Ruby on Rails  | Back-end database for storing the information on yogurts/toppings |
-|     Express      | |
-|  Express Router  | |
 
 <br>
 
@@ -66,34 +64,31 @@ __
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Home Screen](https://imgur.com/Kcsklp9)
+
 https://imgur.com/Kcsklp9
 
 - Home 
 
-![Order Screen](https://imgur.com/cUmrdWT)
+
 https://imgur.com/cUmrdWT
 
 - CreateOrder 
 
-![Change Order](https://imgur.com/p5ekcBR)
+
 https://imgur.com/p5ekcBR
 
 - Edit Order / Delete Order
 
-![Checkout](https://imgur.com/CUfg957)
+
 https://imgur.com/CUfg957
 
 - Checkout Screen
 
-![Reviews](https://imgur.com/lrKgUep)
 https://imgur.com/lrKgUep
 
 - Review Screen
 
 #### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
 
 ``` structure
 Home  
@@ -104,8 +99,6 @@ Home
 ```
 
 #### Component Hierarchy
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
 ``` structure
 
