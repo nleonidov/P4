@@ -41,8 +41,6 @@ __
 - _Create a well-organized database for my frozen yogurt and toppings choices_
 - _Establish 'CRUD' around the order and yogurt options_
 - _Create minimalist style website with nice user-interface_
-- 
-- 
 
 <br>
 
@@ -124,8 +122,9 @@ src
 #### Component Tree
 
 > Use this section to include a link to your component tree.
+https://imgur.com/PKCUYXw
 
-[Component tree](url)
+[Component tree](https://imgur.com/PKCUYXw)
 
 #### Time Estimates
 
@@ -148,7 +147,7 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+https://imgur.com/FG6faTp
 
 <br>
 
