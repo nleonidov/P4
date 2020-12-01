@@ -26,10 +26,8 @@ _**Soft Swerve** is a newly opened, delivery-only, frozen yogurt cafe offering v
 
 ## MVP
 
-- CRUD functionality on Reviews
--
--
--
+- BE data sent to requests
+- Functioning create, read, update, destroy on Reviews
 
 \_\_
 
@@ -37,9 +35,9 @@ _**Soft Swerve** is a newly opened, delivery-only, frozen yogurt cafe offering v
 
 ### Goals
 
-- _Create a well-organized database for my frozen yogurt and toppings choices_
-- _Establish 'CRUD' around the order and yogurt options_
-- _Create minimalist style website with nice user-interface_
+- Create a well-organized database for my frozen yogurt and toppings choices
+- Establish 'CRUD' around the order and yogurt options
+- Create minimalist style website with nice user-interface
 
 <br>
 
@@ -153,14 +151,8 @@ https://imgur.com/FG6faTp
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
-
 ---
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
-
 ## Code Issues & Resolutions
-
-> Use this section to list of all major issues encountered and their resolution.
