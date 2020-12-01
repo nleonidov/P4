@@ -1,0 +1,3 @@
+class Yogurt < ApplicationRecord
+    
+end
