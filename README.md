@@ -70,9 +70,11 @@ _**Soft Swerve** is a newly opened, delivery-only, frozen yogurt cafe offering v
 ```structure
 Home
   |__ Order
-  |       |__ Edit/Delete
-  |       |__ Checkout
+  |     |__ Checkout
+  |
   |__ Reviews
+        |__ Edit/Delete
+        |__ Create
 ```
 
 #### Component Hierarchy
