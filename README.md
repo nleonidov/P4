@@ -84,15 +84,25 @@ Home
 src
 |__ screens/
       |__ Home.jsx
+      |__ Home.css
       |__ CreateOrder.jsx
+      |__ CreateOrder.css
       |__ Checkout.jsx
+      |__ Checkout.css
       |__ Edit.jsx
+      |__ Edit.css
       |__ Review.jsx
+      |__ Review.css
+      |__ ReviewEdit.jsx
+      |__ ReviewEdit.css
 |__ components/
       |__ Header.jsx
+      |__ Header.css
       |__ Footer.jsx
+      |__ Footer.css
 |__ containers/
       |__ Main.jsx
+      |__ Main.css
 |__ services/
       |__ apiConfig.js
       |__ yogurts.js
@@ -111,14 +121,21 @@ src
 
 > Use this section to estimate the time necessary to build out each of the components you've described above.
 
-| Task                 | Priority | Estimated Time | Time Invested | Actual Time |
-| -------------------- | :------: | :------------: | :-----------: | :---------: |
-| Create back-end data |    L     |     2 hrs      |     0 hrs     |    0 hrs    |
-| Models/Controllers   |    M     |      1 hr      |     0 hrs     |    0 hrs    |
-| Set-up/Test Routes   |    M     |      1 hr      |     0 hrs     |    0 hrs    |
-| REACT setup          |    H     |    3.5 hrs     |     0 hrs     |    0 hrs    |
-| Create CRUD Actions  |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| TOTAL                |          |    10.5 hrs    |     0 hrs     |    0 hrs    |
+| Task                      | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Create back-end data      |    L     |     2 hrs      |      ---      |     ---     |
+| Set-up/Test Routes        |    M     |      1 hr      |      ---      |     ---     |
+| REACT setup               |    H     |      1 hr      |      ---      |     ---     |
+| Create CRUD Actions       |    H     |     3 hrs      |      ---      |     ---     |
+| Create Home Screen        |    H     |     2 hrs      |      ---      |     ---     |
+| Create Review Form        |    H     |     3 hrs      |      ---      |     ---     |
+| Create Review Edit Screen |    H     |     3 hrs      |      ---      |     ---     |
+| Create Checkout Screen    |    H     |     3 hrs      |      ---      |     ---     |
+| Create Order Screen       |    H     |     3 hrs      |      ---      |     ---     |
+| Start to style screens    |    H     |     4 hrs      |      ---      |     ---     |
+| Testing                   |    H     |     2 hrs      |      ---      |     ---     |
+| Local/Public Deployment   |    H     |     5 hrs      |      ---      |     ---     |
+| TOTAL                     |   hrs    |     35 hrs     |      ---      |     ---     |
 
 > _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 

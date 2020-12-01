@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Yogurt.destroy_all
+Topping.destroy_all
+Flavor.destroy_all
 
 @flavor1 = Flavor.create!(name: 'vanilla')
 @flavor2 = Flavor.create!(name: 'strawberry')

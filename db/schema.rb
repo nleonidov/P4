@@ -10,10 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_01_142543) do
+ActiveRecord::Schema.define(version: 2020_12_01_173737) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "flavors", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "reviews", force: :cascade do |t|
     t.string "name"
@@ -23,11 +29,25 @@ ActiveRecord::Schema.define(version: 2020_12_01_142543) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "toppings", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "toppings_yogurts", id: false, force: :cascade do |t|
+    t.bigint "yogurt_id", null: false
+    t.bigint "topping_id", null: false
+  end
+
   create_table "yogurts", force: :cascade do |t|
     t.string "name"
     t.integer "quantity"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.bigint "flavor_id", null: false
+    t.index ["flavor_id"], name: "index_yogurts_on_flavor_id"
   end
 
+  add_foreign_key "yogurts", "flavors"
 end
