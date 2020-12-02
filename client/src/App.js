@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { Switch, Route } from 'react-router-dom';
+
 import './App.css';
+import Main from './containers/Main';
+import Layout from './layouts/Layout';
+import Reviews from './screens/Reviews';
 
 function App() {
+  const [reviews, setReviews] = useState([])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Switch>
+
+        <Route path='/reviews'>
+          {/* Review Screen */}
+          <h3> Reviews </h3>
+          <Reviews />
+        </Route>
+
+        <Route path='/yogurts'>
+          {/* Order Screen */}
+          <h3>Yogurts</h3>
+        </Route>
+
+        <Route path='/'>
+          {/* Home Container */}
+          <Main />
+        </Route>
+
+      </Switch>
+    </Layout>
   );
 }
 

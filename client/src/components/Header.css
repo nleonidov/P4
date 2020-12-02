@@ -1,0 +1,17 @@
+.main-header {
+  background-color: #888888;
+}
+
+h1 {
+  justify-content: center;
+}
+
+.rev-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.order-link {
+  display: flex;
+  justify-content: flex-end;
+}
