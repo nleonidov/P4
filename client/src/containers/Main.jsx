@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
 
-import Yogurts from '../screens/Yogurts';
-import Toppings from '../screens/Toppings';
 import { getAllFlavors } from '../services/flavors';
 import { getAllToppings } from '../services/toppings';
 import Reviews from '../screens/Reviews';

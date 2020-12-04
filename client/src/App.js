@@ -6,7 +6,7 @@ import Main from './containers/Main';
 import Layout from './layouts/Layout';
 import Yogurts from './screens/Yogurts';
 import { getAllYogurts } from './services/yogurts';
-import { getAllToppings } from './services/toppings';
+
 
 function App() {
   const [reviews, setReviews] = useState([])
@@ -19,16 +19,6 @@ function App() {
       const yogurtData = await getAllYogurts();
       setYogurts(yogurtData)
     }
-    // const fetchFlavors = async () => {
-    //     const flavorData = await getAllFlavors();
-    //     setFlavors(flavorData);
-    // }
-    // const fetchToppings = async () => {
-    //     const toppingData = await getAllToppings();
-    //     setToppings(toppingData);
-    // }
-    // fetchFlavors();
-    // fetchToppings();
     fetchYogurts();
 }, [])
 
