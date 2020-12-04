@@ -15,3 +15,7 @@ h1 {
   display: flex;
   justify-content: flex-end;
 }
+
+.App {
+  min-height: 90vh;
+}

@@ -1,39 +1,39 @@
-import { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Reviews.css'
 
 export default function Reviews(props) {
 
+    // const { reviews } = props;
+    console.log(props.reviews)
+    // const reviews = [];
 
     return (
     <>
-        <div className='review-buttons'>
-            <button className='edit-button'>Edit</button>
-            <button className='delete-button'>Delete</button>
-        </div>
-        <form>
-            <div>
-                <label className='name-label'>Name:
-                    <input
-                        className='name-input'
-                        type='text'
-                        name='name'
-                        placeholder='Name...'
-                    >
-                    </input>
-                </label>
-            </div>
-            <div>
-                <input
-                    className='review-input'
-                    type='text'
-                    name='review'
-                    placeholder='Leave a review...'
-                >
-                </input>
-            </div>
-            <button>Submit</button>
-        </form>
+        <Link to={'/reviews/new'}><button>New Review</button></Link>
+        <br />
+            { 
+                props.reviews.map(review => (
+                    <React.Fragment key={review.id}>
+                        <label> 
+                            Name: <p>{review.name}</p>
+                        </label>
+                        <label> Message: 
+                            <p>{review.content}</p>
+                        </label>
+                        <label> Rating: 
+                            <p>{review.rating}</p>
+                        </label>
+                            {
+                                <>
+                                    <Link to={`/reviews/${review.id}/edit`}><button>Edit</button></Link>
+                                    <button onClick={() => props.handleDelete(review.id)}>Delete</button>
+                                </>
+                            }
+                    </React.Fragment>
+                ))
+            }
     </>
     )
 }

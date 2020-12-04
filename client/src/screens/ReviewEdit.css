@@ -1,0 +1,19 @@
+.input-msg {
+  margin-top: 10px;
+  height: 100px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.input-name {
+  width: 230px;
+  margin-left: 10px;
+}
+
+.rating-input {
+  margin-left: 10px;
+}
+
+.review-submit {
+  margin-top: 10px;
+}
