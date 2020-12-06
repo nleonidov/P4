@@ -11,7 +11,7 @@ export default function Reviews(props) {
 
     return (
     <>
-        <Link to={'/reviews/new'}><button>New Review</button></Link>
+        <Link to={'/reviews/new'}><button className='new-rev'>New Review</button></Link>
         <br />
             { 
                 props.reviews.map(review => (
@@ -27,8 +27,8 @@ export default function Reviews(props) {
                         </label>
                             {
                                 <>
-                                    <Link to={`/reviews/${review.id}/edit`}><button>Edit</button></Link>
-                                    <button onClick={() => props.handleDelete(review.id)}>Delete</button>
+                                    <Link to={`/reviews/${review.id}/edit`}><button className='rev-edit'>Edit</button></Link>
+                                    <button className='rev-delete' onClick={() => props.handleDelete(review.id)}>Delete</button>
                                 </>
                             }
                     </React.Fragment>

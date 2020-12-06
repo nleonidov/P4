@@ -9,3 +9,24 @@
   width: 230px;
   margin-left: 10px;
 }
+
+.rev-edit {
+  background-color: #a78573;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.rev-delete {
+  background-color: #a78573;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.new-rev {
+  background-color: #a78573;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px grey;
+}

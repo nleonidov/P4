@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
 
+import './Main.css';
 import { getAllFlavors } from '../services/flavors';
 import { getAllToppings } from '../services/toppings';
 import Reviews from '../screens/Reviews';
@@ -54,20 +55,20 @@ function Main(props) {
     }
 
     return (
-        <Switch>
-            <Route path='/reviews/:id/edit'>
-                <ReviewEdit reviews={reviews} handleUpdate={handleUpdate} />
-            </Route>
-            <Route path='/reviews/new'>
-                <ReviewCreate handleCreate={handleCreate} />
-            </Route>
-            <Route path='/reviews'>
-                <Reviews
-                    reviews={reviews}
-                    handleDelete={handleDelete}
-                />
-            </Route>
-        </Switch>
+                <Switch>
+                    <Route path='/reviews/:id/edit'>
+                        <ReviewEdit reviews={reviews} handleUpdate={handleUpdate} />
+                    </Route>
+                    <Route path='/reviews/new'>
+                        <ReviewCreate handleCreate={handleCreate} />
+                    </Route>
+                    <Route path='/reviews'>
+                        <Reviews
+                            reviews={reviews}
+                            handleDelete={handleDelete}
+                        />
+                    </Route>
+                </Switch>
     )
 }
 

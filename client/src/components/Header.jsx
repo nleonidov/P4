@@ -5,12 +5,18 @@ import './Header.css';
 export default function Header() {
     return (
         <div className='main-header'>
+            <div className='header'>
             <h1>Soft Swerve</h1>
             <div className='main-links'>
-                    <div className='rev-link'><Link to='/reviews'>Reviews</Link></div>
-                    <div className='order-link'><Link to='/yogurts'>Order Now</Link></div>
+                <ul className='header-item'>
+                    <li className='contactss'><Link to='/'><a>Contact</a></Link></li>
+                    <li className='reviewss'><Link to='/reviews'><a>Reviews</a></Link></li>
+                    <li className='orderss'><Link to='/yogurts'><a>Order Now</a></Link></li>
+                    <li className='flavorss'><Link to='/'><a>Flavors</a></Link></li>
+                </ul>
             </div>
             <hr />
+            </div>
         </div>
     )
 }
