@@ -16,20 +16,26 @@ export default function Reviews(props) {
             { 
                 props.reviews.map(review => (
                     <React.Fragment key={review.id}>
-                        <label> 
-                            Name: <p>{review.name}</p>
-                        </label>
-                        <label> Message: 
-                            <p>{review.content}</p>
-                        </label>
-                        <label> Rating: 
-                            <p>{review.rating}</p>
-                        </label>
+                        <div className='label-div'>
+                            <div className='form-name'>
+                                <h2 className='name-form'>Name:</h2>
+                                <p className='name-label'>{review.name}</p>
+                            </div>
+                            <div className='form-content'>
+                                <h2 className='msg'>Message:</h2>
+                                    <p className='content-label'>{review.content}</p>
+                            </div>
+                            <div className='form-rating'>
+                                <h2 className='rate'>Rating:</h2>
+                                    <p className='rating-label'>{review.rating}</p>
+                            </div>
+                        </div>
                             {
-                                <>
+                                <div className='buttonz'>
                                     <Link to={`/reviews/${review.id}/edit`}><button className='rev-edit'>Edit</button></Link>
+                                    <br />
                                     <button className='rev-delete' onClick={() => props.handleDelete(review.id)}>Delete</button>
-                                </>
+                                </div>
                             }
                     </React.Fragment>
                 ))

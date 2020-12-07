@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Switch, Route, useHistory } from 'react-router-dom';
+import { Link, Switch, Route, useHistory } from 'react-router-dom';
 
 import './Main.css';
 import { getAllFlavors } from '../services/flavors';
@@ -68,6 +68,12 @@ function Main(props) {
                             handleDelete={handleDelete}
                         />
                     </Route>
+                    <div>
+                        <img id='strawb' src='/assets/strawb.jpeg'/>
+                        <Link to={'/yogurts'}>
+                            <h2 className='fotw'>See our 'Flavor of the Week' on our 'Weekly Special' page!</h2>
+                        </Link>
+                    </div>
                 </Switch>
     )
 }

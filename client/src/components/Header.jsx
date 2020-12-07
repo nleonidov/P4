@@ -11,7 +11,7 @@ export default function Header() {
                 <ul className='header-item'>
                     <li className='contactss'><Link to='/'><a>Contact</a></Link></li>
                     <li className='reviewss'><Link to='/reviews'><a>Reviews</a></Link></li>
-                    <li className='orderss'><Link to='/yogurts'><a>Order Now</a></Link></li>
+                    <li className='orderss'><Link to='/yogurts'><a>Weekly Special</a></Link></li>
                     <li className='flavorss'><Link to='/'><a>Flavors</a></Link></li>
                 </ul>
             </div>

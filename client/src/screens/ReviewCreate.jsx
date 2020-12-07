@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './ReviewCreate.css';
 
 export default function ReviewCreate(props) {
     const [formData, setFormData] = useState({
@@ -44,6 +45,19 @@ export default function ReviewCreate(props) {
                     onChange={handleChange}
                 >
                 </input>
+            </div>
+            <div>
+                <label className='rating-label'> Rating:
+                    <input
+                        className='rating-input'
+                        type='text'
+                        name='rating'
+                        placeholder='out of 5'
+                        value={formData.rating}
+                        onChange={handleChange}
+                    >
+                    </input>
+                </label>
             </div>
             <button>Submit</button>
     </form>

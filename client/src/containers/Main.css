@@ -1,3 +1,15 @@
 #root {
   background-color: #ccead5;
 }
+
+#strawb {
+  max-width: 600px;
+  max-height: 800px;
+}
+
+.fotw {
+  margin: 0 auto;
+  color: #f9d8a7;
+  text-shadow: 1px 1px #000000;
+  font-family: “Chalkduster”, fantasy;
+}

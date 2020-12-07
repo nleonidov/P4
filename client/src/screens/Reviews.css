@@ -15,6 +15,9 @@
   border-radius: 20px;
   color: #ffffff;
   box-shadow: 2px 2px 4px grey;
+  margin: 0 auto;
+  font-family: “Chalkduster”, fantasy;
+  text-shadow: 1px 1px #a78573;
 }
 
 .rev-delete {
@@ -22,6 +25,9 @@
   border-radius: 20px;
   color: #ffffff;
   box-shadow: 2px 2px 4px grey;
+  margin: 0 auto;
+  font-family: “Chalkduster”, fantasy;
+  text-shadow: 1px 1px #a78573;
 }
 
 .new-rev {
@@ -29,4 +35,27 @@
   border-radius: 20px;
   color: #ffffff;
   box-shadow: 2px 2px 4px grey;
+  margin: 0 auto;
+  font-family: “Chalkduster”, fantasy;
+  text-shadow: 1px 1px #a78573;
+}
+
+.label-div {
+  box-shadow: 4px 4px 6px 0;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.buttonz {
+  justify-content: center;
+}
+
+.name-form,
+.msg,
+.rate {
+  font-family: “Chalkduster”, fantasy;
+  color: #f9d8a7;
+  text-shadow: 1px 1px #000000;
 }
